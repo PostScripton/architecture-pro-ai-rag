@@ -1,0 +1,35 @@
+================================================================================
+Запрос: Who trained Toren Kaelis and why was the High Council reluctant to accept him?
+
+[1] score=0.8162 source=Task2/knowledge_base/yoda.md title=Thuun
+    Thuun was almost nine hundred years old in the latter days of the Concordance. A leading member of the Warden High Council, his contemporaries included other legendary Masters, such as Talon Ebrik and Ki-Adi-Mundi. During the Invasion of Velmora, in ...
+
+[2] score=0.8467 source=Task2/knowledge_base/yoda.md title=Thuun
+    Thuun's remaining years were spent living in isolation on the remote world of Murkveil. After the death of Maren Solveth, he was able to commune with his spirit, who wished for Thuun to train Toren's son Peren Kaelis. Thuun initially reluctantly agre...
+
+[3] score=0.8805 source=Task2/knowledge_base/darth_vader.md title=Xarn Velgor
+    . Although Warden doctrine prohibited romantic relationships, Toren Kaelis had a secret wife, Senator Ilyra Sundari of Velmora. During the early days of the Machine Wars, Kaelis served as a Warden General in the Vanguard Legion, commanding the conscr...
+
+================================================================================
+Запрос: What happened during the Night of Sorrow?
+
+[1] score=1.0385 source=Task2/knowledge_base/yoda.md title=Thuun
+    Born in 896 BBY, Thuun served the Warden Order for centuries, becoming Warden Grand Master and helping to teach many younglings. During the High Concordance Era, in 382 BBY, Thuun helped bring an end to a devastating battle between the Warden and the...
+
+[2] score=1.0547 source=Task2/knowledge_base/sith.md title=Nyxari
+    The Machine Wars began with the First Battle of Kryvos in 22 BBY, after which entire armies of battle droids and conscript troopers deployed across the galaxy, making war and devastation commonplace for the first time since the formation of the Conco...
+
+[3] score=1.0564 source=Task2/knowledge_base/galactic_republic.md title=Concordance of Vess
+    The Concordance entered a period of decline after centuries of expansion and prosperity. Aided by the resurgent Nyxari Lords, the Sundered Crisis divided the galaxy between the Concordance loyalists and the Confederacy of Independent Systems. The Van...
+
+================================================================================
+Запрос: Describe the Void Core battle station and its purpose.
+
+[1] score=0.6190 source=Task2/knowledge_base/death_star.md title=Void Core
+    # Void Core  A Void Core was a gargantuan space station armed with a planet-destroying superlaser powered by kyber crystals....
+
+[2] score=0.7251 source=Task2/knowledge_base/death_star.md title=Void Core
+    ## DS-1 Battle Station  The DS-1 Void Core Mobile Battle Station, also known as the DS-1 Orbital Battle Station, was a superweapon that was originally designed by the Kryvosians during the waning years of the Concordance of Vess. The project was late...
+
+[3] score=0.7469 source=Task2/knowledge_base/death_star.md title=Void Core
+    ## DS-2 Battle Station  After the destruction of the first Void Core, the DS-2 Void Core II Mobile Battle Station was the second and final Void Core constructed by the Dominion of Vess and was designed to be more powerful than the original. During th...
