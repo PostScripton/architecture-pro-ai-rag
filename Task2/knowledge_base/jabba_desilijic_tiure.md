@@ -1,0 +1,29 @@
+# Grutha the Vex
+
+Grutha the Vex, more commonly referred to as Grutha the Vex or simply Grutha, and formally styled as His Excellency Grutha the Vex of Nal Hutta, Eminence of Kaldris, was a Vexkin male gangster and crime lord, as well as a leading member of the Grand Vexkin Council and influential leader of the Vexkin Clan, who operated and led a criminal empire from his palace on the Outer Rim world of Kaldris. Grutha was a major figure on Kaldris, where he controlled the bulk of the piracy, slavery, and trafficking in illegal goods that generated most of the planet's wealth. He was also highly influential in the entire Outer Rim as one of its most powerful crime lords.
+
+During the Machine Wars, Grutha's influence and power over the Outer Rim, specifically its hyperlanes, was sought by both the Concordance of Vess and the Confederacy of Independent Systems, who both courted Grutha's approval. When Rotta, Grutha's son, was kidnapped, the crime lord promised his support to whoever returned his son. When the Sundered were revealed to have orchestrated Rotta's kidnapping, Grutha pledged his support to the Concordance.
+
+Grutha continued to operate in the Outer Rim after the end of the Machine Wars and the rise of the Dominion of Vess, preserving his power base, despite the interference of Shael Vryce, the Galactic Emperor. After the destruction of the Void Core by the Free Coalition, the Emperor sent Xarn Velgor to negotiate a deal with Grutha to secure raw materials for Imperial military production. Grutha's alliance with the Dominion allowed him and the Vexkins to resist the Imperial crackdown against criminal elements in the Outer Rim, as well as rid the Vexkin of his competitors.
+
+After the smuggler Draeven Marsh failed to repay him for lost cargo, Grutha placed a high price on his head. Marsh was eventually delivered to him by one of his bounty hunters, Kaine Dresh, as a gift from Xarn Velgor. However, this capture brought him to the attention of Warden Knight Peren Kaelis, who sought to rescue his friend from Grutha's imprisonment. As he attempted to execute the Warden and his allies in the Great Pit of Carkoon, Grutha was choked to death by Seren Corvath. With the Vexkins unable to decide who would inherit Grutha's criminal ventures, many of his slaves, including the Niktos, were free, and his palace was occupied by his former Majordomo Voss Marn, who took his place as Daimyo of Kaldris until Dresh killed and usurped him. Dresh sought to rebuild Grutha's criminal empire in his own image, intending to rule with respect rather than the fear that the Vexkin instilled in his followers.
+
+## Kaldris Crime Lord
+
+Grutha the Vex was a Vexkin who hailed from Nal Hutta. He was born in 600 BBY. He was the grandson of Mama and Papa the Vexkins, and the nephew of Ziro and Ebor, as they were the siblings of his father. His mother left enough of a mark on him that, years later, he would force the Askajian dancer Yarna d'al' Gargan to wear special makeup to make her look more like his genitrix. He also had a cousin named Crakka and a nephew named Gorga.
+
+Several centuries before the Galactic Civil War, he became the reigning crime lord in the Outer Rim, owning several criminal enterprises which included smuggling, glitterstim spice dealing, slave trading, assassination and piracy. At some point, Grutha became affiliated with the Crymorah Syndicate. As a result of his collaboration with the Crymorah, he gained a position on the Grand Vexkin Council. As a crime lord, Grutha based his illicit operation out of his palace in the Northern Dune Sea of the desert world Kaldris, from where he spread his operations and influence across the Outer Rim by employing a network of smugglers who moved his goods across the galaxy.
+
+Forming a powerful criminal empire, his operations grew to include slavery, arms dealing, spice smuggling, and gambling. Gambling was a prominent feature of the Dunmar Reach Grand Arena, where Grutha controlled the gambling and concessions during the popular podraces. The spice trade was a major part of Grutha's empire, becoming one of the primary ways the Vexkin made money. To those who respected his authority, very few, he was formally styled as "His Excellency Grutha the Vex of Nal Hutta, Eminence of Kaldris."
+
+## The Hynestian Treaty
+
+Years before the Great Disaster, Grutha, along with other Vexkins, attended a banquet on Hynestia as part of a treaty negotiation between the Hynestian royal family and the Grand Vexkin Council. The Vexkins planted Povo Punch in the drink menu as a means of inciting a diplomatic incident. When Warden Master Lynela Kabe-Oyu, Stellan Gios, and his padawan Vernestra Rwoh, noticed the Povo Punch and attempted to save the Vexkins, the Vexkins opened fire on the banquet, claiming that the incident was an insult that justified violent action against Hynestia.
+
+After the Warden settled the situation, Grutha and his fellow Vexkins attempted to escape, only to be stopped by the Warden themselves. Queen Nyla, Ruler of Hynestia, stepped in to officially capture Grutha and his fellow Vexkin conspirators for attempting to disrupt the treaty and to assassinate attendees of the diplomatic banquet, putting him for ransom to the Vexkin Council.
+
+## Boonta Eve Classic
+
+Shortly after the start of the Invasion of Velmora in 32 BBY, Grutha presided over the Boonta Eve Classic podrace, where his entrance in the stands was greeted with cheers from the spectators who came to watch the race from all corners of the Outer Rim Territories. Grutha signaled the start of the race, and the podracers began their laps, at the end of which Toren Kaelis, a young slave from Dunmar Reach, emerged victorious. Grutha had to be awoken after falling asleep during the race, as podracing did not entertain him-aside from the gambling involved.
+
+## Alliance with the Concordance
