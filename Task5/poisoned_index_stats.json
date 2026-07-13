@@ -1,0 +1,9 @@
+{
+  "embedding_model": "BAAI/bge-m3",
+  "documents": 46,
+  "chunks": 394,
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "indexing_time_seconds": 8.8,
+  "malicious_document_included": true
+}
