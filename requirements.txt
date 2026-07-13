@@ -1,0 +1,10 @@
+langchain==0.3.30
+langchain-community==0.3.31
+langchain-core==0.3.86
+langchain-huggingface==0.3.1
+langchain-text-splitters==0.3.11
+langchain-openai>=0.2,<0.4
+faiss-cpu==1.13.0
+sentence-transformers==5.1.2
+transformers==4.57.6
+torch==2.8.0
