@@ -1,0 +1,66 @@
+@startuml
+title Обработка запроса и оценка качества RAG-бота (Задание 7)
+
+actor "Сотрудник /\nevaluate.py" as User
+participant "LoggingRagBot\n(rag_bot_logging.py)" as Bot
+participant "FAISS\n(gapped_index)" as Index
+participant "LLM\n(GPT-4o-mini / Qwen2.5-0.5B)" as LLM
+database "logs.jsonl" as Logs
+
+User -> Bot : ask(query)
+activate Bot
+
+Bot -> Index : similarity_search_with_score(query, k=4)
+activate Index
+
+alt индекс пуст или недоступен
+  Index --> Bot : ошибка / пустой результат
+  Bot -> Logs : запись (chunks_found=false,\nsuccess=false)
+  Bot --> User : "I don't know" (skipped_llm)
+else найдены чанки
+  Index --> Bot : [(chunk, score), ...]
+  deactivate Index
+
+  Bot -> Bot : chunk_filter + sanitize\n(отсев prompt-инъекций)
+
+  alt все чанки отфильтрованы\nили лучший score > порога (1.1)
+    Bot -> Logs : запись (chunks_found=false,\nsuccess=false)
+    Bot --> User : "I don't know"\n(не найдено релевантной информации)
+  else есть релевантный чанк
+    Bot -> Bot : build_messages()\n(few-shot + Chain-of-Thought)
+
+    alt чанк невалиден / повреждены метаданные
+      Bot -> Logs : запись (success=false)
+      Bot --> User : ошибка форматирования контекста
+    else промпт собран корректно
+      Bot -> LLM : generate(messages)
+      activate LLM
+
+      alt сбой генерации (таймаут, ошибка API/модели)
+        LLM --> Bot : исключение
+        Bot -> Logs : запись (success=false, error)
+        Bot --> User : ошибка генерации ответа
+      else ответ сгенерирован
+        LLM --> Bot : answer (Reasoning + Answer)
+        deactivate LLM
+
+        Bot -> Bot : _is_successful()\n(длина ответа, "I don't know",\nналичие источников)
+        Bot -> Logs : запись (query, timestamp,\nchunks_found, answer_length,\nsuccess, sources, best_score)
+        Bot --> User : answer + sources
+      end
+    end
+  end
+end
+deactivate Bot
+
+== Автоматическая оценка (evaluate.py) ==
+
+User -> User : загрузить golden_questions.txt
+loop по каждому золотому вопросу
+  User -> Bot : ask(question)
+  Bot --> User : answer, success, sources
+  User -> User : сравнить actual_type (known/gap)\nс expected_type
+end
+User -> User : evaluation_report.json\n(accuracy, ошибки классификации)
+
+@enduml

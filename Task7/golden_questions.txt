@@ -1,0 +1,26 @@
+# Золотой набор вопросов для оценки качества RAG-бота (Задание 7)
+#
+# Формат строки: вопрос | ожидаемый_тип | примечание
+# ожидаемый_тип:
+#   known - тема есть в базе знаний, бот должен дать содержательный ответ
+#   gap   - тема отсутствует в базе (удалена искусственно или никогда не
+#           была там), бот должен честно ответить "I don't know"
+#
+# Вопросы 1-8 покрывают персонажей, планеты, технику, фракции и документ,
+# добавленный автообновлением из Задания 6 (Ретрансляционные станции).
+# Вопросы 9-12 - на три сущности, удалённые build_gapped_index.py
+# (Void Core, Xarn Velgor, Synth Flux), и на тему, которой в базе не было
+# никогда (проверка отсутствующей информации без искусственного удаления).
+
+Who is Peren Kaelis and what is he known for? | known | luke_skywalker.md
+What can you tell me about Thuun, the Warden Grand Master? | known | yoda.md
+What is the Wraith Runner and who owns it? | known | millennium_falcon.md
+Describe the planet Kaldris and its role in the story. | known | tatooine.md
+Who is Grokk and what is his relationship with Draeven Marsh? | known | chewbacca.md
+What is the Dominion of Vess and how did it come to power? | known | galactic_empire.md
+What is the Free Coalition and what is its goal? | known | rebel_alliance.md
+What are the Quantum Network relay stations and where are they located? | known | quantum_relay_stations.md (Task6 incoming_docs)
+What is the Void Core and what was its purpose? | gap | death_star.md removed by build_gapped_index.py
+Who is Xarn Velgor and what happened to him? | gap | darth_vader.md removed by build_gapped_index.py
+What is Synth Flux and how does it work? | gap | the_force.md removed by build_gapped_index.py
+What is QuantumForge Software's official policy on hardware warranty refunds? | gap | topic never present in the knowledge base

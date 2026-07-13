@@ -1,0 +1,16 @@
+{
+  "source_index": "Task6/index",
+  "removed_sources": [
+    "Task2/knowledge_base/death_star.md",
+    "Task2/knowledge_base/darth_vader.md",
+    "Task2/knowledge_base/the_force.md"
+  ],
+  "removed_titles": [
+    "Synth Flux",
+    "Void Core",
+    "Xarn Velgor"
+  ],
+  "chunks_before": 394,
+  "chunks_removed": 21,
+  "chunks_after": 373
+}
