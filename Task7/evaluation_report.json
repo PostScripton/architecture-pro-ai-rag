@@ -1,0 +1,191 @@
+{
+  "summary": {
+    "total_questions": 12,
+    "correct": 9,
+    "accuracy": 0.75,
+    "known_questions": 8,
+    "known_correct": 8,
+    "gap_questions": 4,
+    "gap_correct": 1,
+    "misclassified": [
+      {
+        "question": "What is the Void Core and what was its purpose?",
+        "expected": "gap",
+        "actual": "known"
+      },
+      {
+        "question": "Who is Xarn Velgor and what happened to him?",
+        "expected": "gap",
+        "actual": "known"
+      },
+      {
+        "question": "What is Synth Flux and how does it work?",
+        "expected": "gap",
+        "actual": "known"
+      }
+    ]
+  },
+  "results": [
+    {
+      "question": "Who is Peren Kaelis and what is he known for?",
+      "expected_type": "known",
+      "actual_type": "known",
+      "correct": true,
+      "sources": [
+        "Murkveil",
+        "Peren Kaelis",
+        "Thuun"
+      ],
+      "completeness": "medium",
+      "answer_preview": "Reasoning: 1. The question asks about Peren Kaelis and what they are known for. 2. From the provided text, we can see that Peren Kaelis is described as \"the son of Warden Knight Toren Kaelis\" and \"bor",
+      "note": "luke_skywalker.md"
+    },
+    {
+      "question": "What can you tell me about Thuun, the Warden Grand Master?",
+      "expected_type": "known",
+      "actual_type": "known",
+      "correct": true,
+      "sources": [
+        "Murkveil",
+        "Thuun"
+      ],
+      "completeness": "high",
+      "answer_preview": "Reasoning: 1. The text mentions several points about Thuun: - He was a legendary Warden Grand Master - He led the Warden Order through various eras - He was a leader among Warden Masters - He served a",
+      "note": "yoda.md"
+    },
+    {
+      "question": "What is the Wraith Runner and who owns it?",
+      "expected_type": "known",
+      "actual_type": "known",
+      "correct": true,
+      "sources": [
+        "Farro Nyle",
+        "Wraith Runner"
+      ],
+      "completeness": "medium",
+      "answer_preview": "Reasoning: 1. The context mentions \"Wraith Runner\" twice, indicating multiple instances where this term refers to the same object. 2. The text provides different sources about the Wraith Runner, each ",
+      "note": "millennium_falcon.md"
+    },
+    {
+      "question": "Describe the planet Kaldris and its role in the story.",
+      "expected_type": "known",
+      "actual_type": "known",
+      "correct": true,
+      "sources": [
+        "Kaldris"
+      ],
+      "completeness": "high",
+      "answer_preview": "Reasoning: 1. The context mentions that Kaldris was a \"hot desert planet\" located in the Outer Rim Territories. 2. It has three moons: Ghomrassen, Guermessa, and Chenini. 3. The planet orbits twin sun",
+      "note": "tatooine.md"
+    },
+    {
+      "question": "Who is Grokk and what is his relationship with Draeven Marsh?",
+      "expected_type": "known",
+      "actual_type": "known",
+      "correct": true,
+      "sources": [
+        "Draeven Marsh",
+        "Grohl",
+        "Grokk"
+      ],
+      "completeness": "high",
+      "answer_preview": "Reasoning: 1. The context mentions Grokk as a Grohl male warrior, smuggler, mechanic, pilot, and resistance fighter. 2. It states that Grokk was a Grohl military leader during the Machine Wars. 3. It ",
+      "note": "chewbacca.md"
+    },
+    {
+      "question": "What is the Dominion of Vess and how did it come to power?",
+      "expected_type": "known",
+      "actual_type": "known",
+      "correct": true,
+      "sources": [
+        "Concordance of Vess",
+        "Dominion of Vess"
+      ],
+      "completeness": "high",
+      "answer_preview": "Reasoning: 1. The text mentions that the Dominion of Vess is described as a fascist and imperialist dictatorship. 2. It states that it replaced the Concordance of Vess at the end of the Machine Wars. ",
+      "note": "galactic_empire.md"
+    },
+    {
+      "question": "What is the Free Coalition and what is its goal?",
+      "expected_type": "known",
+      "actual_type": "known",
+      "correct": true,
+      "sources": [
+        "Corin Thale",
+        "Cryveil",
+        "Free Coalition"
+      ],
+      "completeness": "high",
+      "answer_preview": "Reasoning: 1. The context mentions the Free Coalition as a resistance movement opposing the rule of the Dominion of Vess. 2. It provides details about the formation and goals of this coalition. Answer",
+      "note": "rebel_alliance.md"
+    },
+    {
+      "question": "What are the Quantum Network relay stations and where are they located?",
+      "expected_type": "known",
+      "actual_type": "known",
+      "correct": true,
+      "sources": [
+        "Aurellon",
+        "Kaldris",
+        "Unit P-EL7",
+        "Ретрансляционные станции Квантовой Сети"
+      ],
+      "completeness": "high",
+      "answer_preview": "Reasoning: 1. The question asks about Quantum Network relay stations and their locations. 2. From the provided text, we find this statement: \"[Source: Ретрансляционные станции Квантовой Сети (Task6/in",
+      "note": "quantum_relay_stations.md (Task6 incoming_docs)"
+    },
+    {
+      "question": "What is the Void Core and what was its purpose?",
+      "expected_type": "gap",
+      "actual_type": "known",
+      "correct": false,
+      "sources": [
+        "Dominion of Vess",
+        "Free Coalition",
+        "Grutha the Vex",
+        "Wilhuff Tarkos"
+      ],
+      "completeness": "high",
+      "answer_preview": "Reasoning: 1. The context mentions the Void Core as a space station that killed millions of Threnosians. 2. It states that the Void Core was destroyed by Peren Kaelis at the Battle of Kesh. 3. The que",
+      "note": "death_star.md removed by build_gapped_index.py"
+    },
+    {
+      "question": "Who is Xarn Velgor and what happened to him?",
+      "expected_type": "gap",
+      "actual_type": "known",
+      "correct": false,
+      "sources": [
+        "Directive Zero",
+        "Talon Ebrik",
+        "Thuun",
+        "Vryce"
+      ],
+      "completeness": "low",
+      "answer_preview": "Reasoning: 1. The question asks about Xarn Velgor and what happened to him based on the provided sources. 2. From the source \"Talon Ebrik\" (Task2/knowledge_base/mace_windu.md) it mentions that Xarn Ve",
+      "note": "darth_vader.md removed by build_gapped_index.py"
+    },
+    {
+      "question": "What is Synth Flux and how does it work?",
+      "expected_type": "gap",
+      "actual_type": "known",
+      "correct": false,
+      "sources": [
+        "Flux Blade",
+        "Murkveil"
+      ],
+      "completeness": "high",
+      "answer_preview": "Reasoning: 1. The question asks about \"Synth Flux\" without providing any specific details. 2. From the provided text, we can infer that Synth Flux refers to a type of flux blade that has been modified",
+      "note": "the_force.md removed by build_gapped_index.py"
+    },
+    {
+      "question": "What is QuantumForge Software's official policy on hardware warranty refunds?",
+      "expected_type": "gap",
+      "actual_type": "gap",
+      "correct": true,
+      "sources": [],
+      "completeness": "n/a",
+      "answer_preview": "Answer: I don't know. No relevant information was found in the knowledge base for this question.",
+      "note": "topic never present in the knowledge base"
+    }
+  ]
+}

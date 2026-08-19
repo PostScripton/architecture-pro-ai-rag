@@ -1,0 +1,38 @@
+@startuml
+title Автоматическое обновление базы знаний (Задание 6)
+
+skinparam componentStyle rectangle
+
+actor "cron (0 6 * * *)" as Cron
+
+package "Task6" {
+  component "run_update.sh\n(обёртка, до 2 попыток)" as Wrapper
+  component "update_index.py" as Updater
+  database "manifest.json\n(хэши файлов, id чанков)" as Manifest
+  folder "incoming_docs/\n(источник новых документов)" as Source
+  database "index/\n(рабочий индекс FAISS)" as Index
+  file "logs/update.log\nlogs/update_log.jsonl" as Logs
+}
+
+folder "Task3/faiss_index\n(базовый индекс)" as Baseline
+
+Cron --> Wrapper : запуск по расписанию
+Wrapper --> Updater : python3 update_index.py
+
+Updater --> Source : 1. сканирует\nновые/изменённые файлы
+Updater --> Manifest : 2. сравнивает хэши
+Updater ..> Baseline : при первом запуске\nкопирует как старт
+Updater --> Updater : 3. чанкинг\n(RecursiveCharacterTextSplitter)
+Updater --> Updater : 4. эмбеддинги\n(BAAI/bge-m3)
+Updater --> Index : 5. добавляет/удаляет чанки,\nсохраняет индекс
+Updater --> Manifest : обновляет хэши и id чанков
+Updater --> Logs : 6. пишет лог запуска
+
+note right of Wrapper
+  При ошибке update_index.py
+  скрипт повторяет запуск
+  (до MAX_RETRIES раз),
+  каждая попытка логируется.
+end note
+
+@enduml

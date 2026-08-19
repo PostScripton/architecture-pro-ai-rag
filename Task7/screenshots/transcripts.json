@@ -1,0 +1,88 @@
+[
+  {
+    "question": "Who is Peren Kaelis and what is he known for?",
+    "answer": "Reasoning:\n1. The question asks about Peren Kaelis and what they are known for.\n2. From the provided text, we can see that Peren Kaelis is described as \"the son of Warden Knight Toren Kaelis\" and \"born along with his twin sister, Seren, in 19 BBY.\"\n3. The text mentions that Peren Kaelis was \"joined the Coalition Uprising\" and \"continued his training in the years that followed.\"\n\nBased on this information, Peren Kaelis is a Warden Master who was born along with his twin sister and has been involved in various military campaigns throughout his life. His primary occupation appears to have been serving as a Warden Knight, but there may have been other roles within the Warden Order as well.\n\nAnswer: Peren Kaelis is a Warden Master who was born along with his twin sister and has been involved in various military campaigns throughout his life.",
+    "sources": [
+      "Murkveil",
+      "Peren Kaelis",
+      "Thuun"
+    ],
+    "best_score": 0.7864742279052734,
+    "success": true
+  },
+  {
+    "question": "What can you tell me about Thuun, the Warden Grand Master?",
+    "answer": "Reasoning:\n1. The text mentions several points about Thuun:\n   - He was a legendary Warden Grand Master\n   - He led the Warden Order through various eras\n   - He was a leader among Warden Masters\n   - He served as the Grand Master of the Warden Order\n   - He was born around 896 BBY\n   - He served the Warden Order for hundreds of years\n   - He helped lead the defense of the Concordance during the Machine Wars\n   - He taught many younglings and participated in battles against the Nihil pirates\n   - He disappeared for over a year before reappearing\n   - He communicated with Vesk, a deceased Warden Master\n   - He encountered fireflies and saw visions related to communication with the living\n   - He entered a cave and saw a vision of the Warden fighting the clones and Nyxari Lord\n   - He left Murkveil after encountering the Nyxari Lord\n   - He traveled to the planet Murkveil after hearing the voice of deceased Warden Master Dor",
+    "sources": [
+      "Murkveil",
+      "Thuun"
+    ],
+    "best_score": 0.6148976683616638,
+    "success": true
+  },
+  {
+    "question": "What is the Wraith Runner and who owns it?",
+    "answer": "Reasoning:\n1. The context mentions \"Wraith Runner\" twice, indicating multiple instances where this term refers to the same object.\n2. The text provides different sources about the Wraith Runner, each giving slightly different details but all stating it was a Veskaran YT-1300 light freighter.\n3. The source \"Farro Nyle\" specifically identifies the Wraith Runner as belonging to Landonis Balthazar Nyle, who owned it prior to losing it due to a game of sabac on Numidian Prime.\n4. Both sources agree that the Wraith Runner was purchased by Nyle through a game of sabac, leading him to lose it when he played against Draeven Marsh.\n5. Given these points, we can conclude that the Wraith Runner belongs to Nyle, who owns it.\nAnswer: The Wraith Runner belongs to Nyle, who owns it.",
+    "sources": [
+      "Farro Nyle",
+      "Wraith Runner"
+    ],
+    "best_score": 0.8250167965888977,
+    "success": true
+  },
+  {
+    "question": "Describe the planet Kaldris and its role in the story.",
+    "answer": "Reasoning:\n1. The context mentions that Kaldris was a \"hot desert planet\" located in the Outer Rim Territories.\n2. It has three moons: Ghomrassen, Guermessa, and Chenini.\n3. The planet orbits twin suns named Tatoo I and Tatoo II.\n4. It lacks surface water due to being a desert environment.\n5. The landscape includes harsh deserts, mountain ranges, and canyons.\n6. There was once abundant surface water, but it dried out over time.\n7. The planet was inhabited by various species including Sandkin and Duneborn Raiders.\n8. Later, it was colonized by early settlers and explorers.\n9. The legend of Kaldris having a third sun is mentioned, indicating it may have been a distant star system.\n10. The climate described suggests extreme heat and drought conditions typical of deserts.\nAnswer: Kaldris was a hot desert planet located in the Outer Rim Territories, orbiting twin suns named Tatoo I and Tatoo II. It lacked surface water due to being a desert environment",
+    "sources": [
+      "Kaldris"
+    ],
+    "best_score": 0.7037244439125061,
+    "success": true
+  },
+  {
+    "question": "What is the Free Coalition and what is its goal?",
+    "answer": "Reasoning:\n1. The context mentions the Free Coalition as a resistance movement opposing the rule of the Dominion of Vess.\n2. It provides details about the formation and goals of this coalition.\nAnswer: The Free Coalition is a resistance movement aimed at restoring the Concordance of Vess, which it believes has been weakened due to the influence of the Dominion.",
+    "sources": [
+      "Corin Thale",
+      "Cryveil",
+      "Free Coalition"
+    ],
+    "best_score": 0.617878258228302,
+    "success": true
+  },
+  {
+    "question": "What is QuantumForge Software's official policy on hardware warranty refunds?",
+    "answer": "Answer: I don't know. No relevant information was found in the knowledge base for this question.",
+    "sources": [],
+    "best_score": 1.2329152822494507,
+    "success": false
+  },
+  {
+    "question": "What is the company's parental leave policy?",
+    "answer": "Answer: I don't know. No relevant information was found in the knowledge base for this question.",
+    "sources": [],
+    "best_score": 1.2119531631469727,
+    "success": false
+  },
+  {
+    "question": "What is the CEO's direct phone number?",
+    "answer": "Answer: I don't know. No relevant information was found in the knowledge base for this question.",
+    "sources": [],
+    "best_score": 1.196146011352539,
+    "success": false
+  },
+  {
+    "question": "What wine pairs best with the company's annual dinner menu?",
+    "answer": "Answer: I don't know. No relevant information was found in the knowledge base for this question.",
+    "sources": [],
+    "best_score": 1.2635705471038818,
+    "success": false
+  },
+  {
+    "question": "What is the office Wi-Fi password for the Helsinki headquarters?",
+    "answer": "Answer: I don't know. No relevant information was found in the knowledge base for this question.",
+    "sources": [],
+    "best_score": 1.2765295505523682,
+    "success": false
+  }
+]

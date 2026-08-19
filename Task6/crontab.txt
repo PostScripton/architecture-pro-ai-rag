@@ -1,0 +1,1 @@
+0 6 * * * /path/to/architecture-pro-ai-rag/Task6/run_update.sh >> /path/to/architecture-pro-ai-rag/Task6/logs/cron_stdout.log 2>&1
